@@ -1,5 +1,6 @@
 package main;
 
+import java.util.InputMismatchException;
 import java.text.DecimalFormat;
 import model.Product;
 import model.Sale;
@@ -9,7 +10,7 @@ import model.Client;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-import java.util.InputMismatchException;
+
 
 public class Shop {
 
