@@ -100,7 +100,7 @@ public class Shop {
             }
         } while (!login);
 
-        System.out.println("Login successful.");
+
     }
 
     public void loadInventory() {
@@ -237,7 +237,7 @@ public class Shop {
 
         System.out.println("\nSales List:");
         for (Sale sale : sales) {
-            System.out.println("Customer: " + sale.getClient());
+            System.out.println("Customer: " + sale.getClient().getName());
             System.out.print("Products: ");
             for (Product product : sale.getProducts()) {
                 System.out.print(product.getName() + ", ");
